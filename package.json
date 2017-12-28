@@ -1,0 +1,33 @@
+{
+  "name": "scaleway-promised",
+  "version": "0.1.0",
+  "description": "Scaleway API access with Promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignitial/scaleway-promised.git"
+  },
+  "keywords": [
+    "scaleway",
+    "api",
+    "scw"
+  ],
+  "author": "V. Andritoiu <devandrito@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignitial/scaleway-promised/issues"
+  },
+  "homepage": "https://github.com/ignitial/scaleway-promised#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "lodash": "^4.17.4",
+    "nodeify": "^1.0.1",
+    "rc": "^1.2.2",
+    "superagent": "^3.8.2",
+    "superagent-bluebird-promise": "^4.2.0"
+  }
+}
